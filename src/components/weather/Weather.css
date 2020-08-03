@@ -1,0 +1,29 @@
+.App .shadow-background {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-background .card {
+    font-family: 'Calibri';
+    font-size: 25px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0, 0%, 5%, 0.41);
+    color: #f0f5f5;
+}
+
+content {
+    width: 90%;
+    height: 50%;
+    border-radius: 2px;
+}
+
+.dashboard {
+    display: block;
+}

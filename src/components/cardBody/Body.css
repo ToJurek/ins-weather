@@ -1,0 +1,27 @@
+.last-update {
+    font-size: 0.9em;
+    margin-top: 3%;
+}
+
+.parameter-icon {
+    margin-right: 10px;
+}
+
+.city {
+    height: 30px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column .temp {
+    font-size: 3.5em;
+}
