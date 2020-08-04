@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2238d556-c4a3-4002-a931-a758c4ad3695" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="C:\Users\tjurkiew\WebstormProjects\ins\src\components\cardBody" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.mapWeather">
+  <component name="RunManager" selected="npm.build">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -75,19 +75,6 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WeatherComponent" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/weather/__tests__/WeatherComponent.test.tsx" />
-      <test-names>
-        <test-name value="WeatherComponent" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="WeatherComponent.should render child" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -146,6 +133,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -159,20 +156,20 @@
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.WeatherComponent" />
       <item itemvalue="npm.npm start" />
       <item itemvalue="Jest.WeatherComponent.should render child" />
       <item itemvalue="Jest.state" />
       <item itemvalue="Jest.state (1)" />
       <item itemvalue="Jest.mapWeather" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="Jest.mapWeather" />
         <item itemvalue="Jest.state (1)" />
         <item itemvalue="Jest.state" />
         <item itemvalue="Jest.WeatherComponent.should render child" />
-        <item itemvalue="Jest.WeatherComponent" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +185,7 @@
       <updated>1596189119767</updated>
       <workItem from="1596189122239" duration="2304000" />
       <workItem from="1596191863719" duration="47197000" />
-      <workItem from="1596460103904" duration="26232000" />
+      <workItem from="1596460103904" duration="27302000" />
     </task>
     <servers />
   </component>
@@ -212,29 +209,29 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-707" y="149" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596492978863" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1596528936043">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1596531298946">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596477233219" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596528936043" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596531298946" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1596481053328" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1596528936043">
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1596531298946">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596477233218" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596528936043" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596531298946" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1596481053327" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1596528936042">
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1596531298946">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596477233218" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596528936042" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596531298946" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1596481053327" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1596528936043">
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1596531298946">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596477233218" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596528936043" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596531298946" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@1920.0.1920.1040" timestamp="1596481053327" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596527747518">
       <screen x="-1920" y="0" width="1920" height="1040" />
