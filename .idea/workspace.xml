@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2238d556-c4a3-4002-a931-a758c4ad3695" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cardBody/Body.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cardBody/Body.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/state/State.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/state/State.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/weather/Weather.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/weather/Weather.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/weather/WeatherComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/weather/WeatherComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/city/export.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/city/wroc.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="356" />
+    <option name="myElementSize" value="434" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -197,7 +188,7 @@
       <updated>1596189119767</updated>
       <workItem from="1596189122239" duration="2304000" />
       <workItem from="1596191863719" duration="47197000" />
-      <workItem from="1596460103904" duration="25247000" />
+      <workItem from="1596460103904" duration="26232000" />
     </task>
     <servers />
   </component>
