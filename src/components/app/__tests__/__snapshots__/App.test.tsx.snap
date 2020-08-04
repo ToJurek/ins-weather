@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match to snapshot 1`] = `
+<App>
+  <div
+    className="App"
+    style={
+      Object {
+        "backgroundImage": "url(morning.jpg)",
+      }
+    }
+  >
+    <Weather>
+      <div
+        className="shadow-background"
+      >
+        <div
+          className="card"
+        >
+          <State
+            error=""
+            isLoaded={false}
+          >
+            <div
+              className="spinner"
+            >
+              <div
+                className="bounce1"
+              />
+              <div
+                className="bounce2"
+              />
+              <div
+                className="bounce3"
+              />
+            </div>
+          </State>
+        </div>
+      </div>
+    </Weather>
+  </div>
+</App>
+`;

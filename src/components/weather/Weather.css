@@ -27,3 +27,15 @@ content {
 .dashboard {
     display: block;
 }
+
+@media only screen and (max-width: 950px) {
+    .App .shadow-background {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .App .shadow-background {
+        width: 100%;
+    }
+}

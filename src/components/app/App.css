@@ -7,14 +7,3 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 950px) {
-  .App .mat {
-    width: 70%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .App .mat {
-    width: 100%;
-  }
-}

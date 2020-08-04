@@ -25,7 +25,7 @@ function Body(props: Props) {
             <div className={'last-update'}>Last update: {weather.time}</div>
             <div className={'row'}>
                 <div className={'column'}><img
-                    src={'http://openweathermap.org/img/wn/' + weather.icon + '@2x.png'}/></div>
+                    alt={'weather-icon'} src={'http://openweathermap.org/img/wn/' + weather.icon + '@2x.png'}/></div>
                 <div className={'column'}><span className={'temp'}>{weather.temp}</span></div>
             </div>
             <div>{weather.tempMax + '/' + weather.tempMin + ' RealFeel ' + weather.feelsLike}</div>
@@ -37,8 +37,8 @@ function Body(props: Props) {
 }
 
 function renderParameters(parameters: Parameter[]): React.ReactNode | null {
-    return parameters.map(parameter => {
-        return (<div>
+    return parameters.map((parameter, index) => {
+        return (<div key={index}>
             <FontAwesomeIcon icon={parameter.icon} className={'parameter-icon'}/>
             <span>{parameter.value}</span>
         </div>)

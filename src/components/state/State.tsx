@@ -1,5 +1,6 @@
 import React from 'react';
 import './State.css';
+const errorIcon = require('../../images/error.png')
 
 interface Props {
     error: string,
@@ -20,7 +21,7 @@ function renderLoader() {
 function renderErrorMessage(error: string) {
     return (
         <div>
-            <img src={'https://cdn4.iconfinder.com/data/icons/multisizeicon/512/baru-78-512.png'}
+            <img src={errorIcon} alt={'error'}
                  className={'error-img'}/>
             <span className={'error-message'}>{error}</span>
         </div>

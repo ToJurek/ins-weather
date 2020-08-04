@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button should match to snapshot 1`] = `
+<Button
+  handleClick={[MockFunction]}
+  name="Button-name"
+>
+  <button
+    className="refresh-button"
+    onClick={[Function]}
+  >
+    Button-name
+  </button>
+</Button>
+`;
+
+exports[`button should render button name correctly 1`] = `
+<Button
+  handleClick={[MockFunction]}
+  name="Button-name"
+>
+  <button
+    className="refresh-button"
+    onClick={[Function]}
+  >
+    Button-name
+  </button>
+</Button>
+`;
